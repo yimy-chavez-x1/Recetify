@@ -20,8 +20,7 @@ Otros: Cors, Fetch API
 ```
 ## Estructura del proyecto
 ```
-## 📂 Estructura del proyecto
-
+git 
 RECETIFY/
 ├── app/
 │   ├── __init__.py

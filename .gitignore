@@ -11,3 +11,5 @@ venv/
 Thumbs.db
 
 recetas.db
+
+.env
