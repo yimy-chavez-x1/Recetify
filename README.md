@@ -65,8 +65,10 @@ RECETIFY/
 ├── README.md
 └── .gitignore
 ```
-
-
+### Deploy web
+```
+en render (https://recetify-urcf.onrender.com/)
+```
 ###  Metodo de instalación
 
 Clonar Repositorio
