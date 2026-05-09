@@ -39,5 +39,5 @@ document.addEventListener("DOMContentLoaded", async () => {
 const btnHome = document.getElementById("btnHome");
 
 btnHome.addEventListener("click", () => {
-  window.location.href = "/home"; // ajusta la ruta según tu Flask
+  window.location.href = "/home"; 
 });

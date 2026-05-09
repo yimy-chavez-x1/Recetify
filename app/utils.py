@@ -1,10 +1,8 @@
-#aqui va el historial
-
 import os
 import json
 import datetime
 
-#carpeta donde se guardara el historial
+
 HISTORIAL_DIR = "data"
 os.makedirs(HISTORIAL_DIR, exist_ok=True)
 
@@ -22,7 +20,7 @@ def cargar_historial():
             return []
     return []
 
-#primero hay que cargar el historial para guardarlo, utiliza parametro de cargarlo, por eso va despues
+
 def guardar_historial(accion, receta):
     historial = cargar_historial()
 

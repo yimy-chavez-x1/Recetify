@@ -1,5 +1,3 @@
-#archivo solo para login y seguridad
-
 from flask import request, jsonify
 import jwt, os, datetime
 from functools import wraps

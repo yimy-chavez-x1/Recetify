@@ -1,9 +1,7 @@
-//datos del register
 const usernameInput = document.getElementById("username");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 
-//datos del login
 const email_l = document.getElementById("email_l")
 const password_l = document.getElementById("password_l")
 
@@ -28,7 +26,6 @@ async function login() {
     const data = await response.json();
 
     if (data.token) {
-      // Guardamos el token en localStorage
       localStorage.setItem("token", data.token);
       alert("Login exitoso");
 

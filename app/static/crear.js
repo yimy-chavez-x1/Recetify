@@ -1,7 +1,7 @@
 const form = document.getElementById("formCrearReceta");
 
 form.addEventListener("submit", async (e) => {
-  e.preventDefault(); // evita que recargue la página
+  e.preventDefault(); 
 
   const token = localStorage.getItem("token");
 

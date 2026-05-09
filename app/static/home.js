@@ -12,7 +12,6 @@ eliminarBtn.addEventListener("click", () =>{ window.location.href = "/eliminar"}
 const token = localStorage.getItem("token");
 if (token) {
   try {
-    // Decodificar el payload del JWT (sin librerías externas)
     const payloadBase64 = token.split('.')[1];
     const payload = JSON.parse(atob(payloadBase64));
 
