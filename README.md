@@ -4,20 +4,20 @@ API REST desarrollada con Flask que permite gestionar recetas mediante operacion
 Incluye backend modularizado y frontend en HTML, CSS y JavaScript.
 
 ### CARACTERISTICAS
-
+```
 - CRUD completo de recetas
 - Autenticación con JWT
 - Base de datos SQLite
 - Arquitectura modular 
 - Historial de cambios 
 - Frontend HTML, JS, CSS
-
+```
 ### TECNOLOGIAS
-
-Backend: Pyton con flask,SQLite y JWT
+```
+Backend: Python con flask,SQLite y JWT
 Frontend: HTML, CSS y JS
 Otros: Cors, Fetch API
-
+```
 ## Estructura del proyecto
 ```
 ## 📂 Estructura del proyecto
@@ -72,8 +72,8 @@ RECETIFY/
 
 Clonar Repositorio
 ```bash
-git clone https://github.com/yimy-chavez-x1/RECETIFY.git
-cd RECETIFY
+git clone https://github.com/yimy-chavez-x1/Recetify
+cd Recetify
 ```
 Crear un entorno virtual
 ```bash
@@ -97,8 +97,9 @@ Instalar dependencias
 
 Levantar el server
   ```bash
-  flask run
+  python run.py
   ```
+La aplicación estará disponible en http://127.0.0.1:5000
 
 
 ### Capturas de pantalla
@@ -120,4 +121,3 @@ Levantar el server
 
 ### Ver recetas
 ![Ver recetas](assets/png_ver.png)
-
